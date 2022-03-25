@@ -1,0 +1,43 @@
+* {
+    background-color: #333940;
+    color: #E867ED;
+    font-family: sans-serif;
+}
+/*header*/
+
+/*cards*/
+main {
+    display: flexbox;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.code-card {
+    display: inline-block;
+    width: 450px;
+    margin: 15px;
+    border: 2px;
+    border-style: dashed;
+    border-color: white;
+}
+.card-header {
+    border: 5px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: white;
+    padding: 10px;
+}
+
+.linear-gradient-background {
+    background-image: linear-gradient(
+        rgba(232, 102, 236, 0.3) 0%,
+        rgba(232, 102, 236, 0.6) 100%
+        );
+}
+
+code {
+    background: none;
+    font-family: monospace;
+    color: white;
+}
+/*footer*/
